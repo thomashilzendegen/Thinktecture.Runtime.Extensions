@@ -112,6 +112,13 @@ npx skills@latest add PawelGerr/Thinktecture.Runtime.Extensions
 
 This copies the skill into `.claude/skills/` (or the equivalent folder for your agent). Add `-g` to install it globally for all your projects.
 
+**Claude Code plugin** -- Claude Code users can instead install the same skill as a plugin, which keeps it up to date without re-running a copy command:
+
+```
+/plugin marketplace add PawelGerr/Thinktecture.Runtime.Extensions
+/plugin install thinktecture-runtime-extensions@pawelgerr
+```
+
 **Context7 (MCP)** -- this library's documentation is indexed by [Context7](https://context7.com/pawelgerr/thinktecture.runtime.extensions). Agents with the Context7 MCP server configured can pull current docs on demand; reference the library ID `/pawelgerr/thinktecture.runtime.extensions` (or add `use context7` to your prompt).
 
 [Full documentation](https://github.com/PawelGerr/Thinktecture.Runtime.Extensions/wiki/AI-Coding-Assistants) -- what the skill covers, install scopes, agent targeting, and Context7 usage.
