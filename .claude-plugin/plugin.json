@@ -1,0 +1,15 @@
+{
+  "name": "thinktecture-runtime-extensions",
+  "displayName": "Thinktecture Runtime Extensions",
+  "description": "Agent Skill for designing and implementing Smart Enums, Value Objects, and Discriminated Unions with Thinktecture.Runtime.Extensions.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Pawel Gerr",
+    "url": "https://github.com/PawelGerr"
+  },
+  "homepage": "https://github.com/thomashilzendegen/Thinktecture.Runtime.Extensions",
+  "repository": "https://github.com/thomashilzendegen/Thinktecture.Runtime.Extensions",
+  "license": "BSD-3-Clause",
+  "keywords": ["smart-enums", "value-objects", "discriminated-unions", "source-generator", "dotnet"],
+  "skills": ["./skills/"]
+}

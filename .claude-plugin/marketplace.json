@@ -1,0 +1,19 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "pawelgerr",
+  "description": "Claude Code plugins for Pawel Gerr's open-source libraries.",
+  "version": "1.0.0",
+  "owner": {
+    "name": "Pawel Gerr",
+    "url": "https://github.com/PawelGerr"
+  },
+  "plugins": [
+    {
+      "name": "thinktecture-runtime-extensions",
+      "displayName": "Thinktecture Runtime Extensions",
+      "description": "Design and implement Smart Enums, Value Objects, and Discriminated Unions with Thinktecture.Runtime.Extensions.",
+      "source": "./",
+      "version": "1.0.0"
+    }
+  ]
+}
